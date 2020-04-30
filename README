@@ -1,0 +1,19 @@
+To run the framework:
+java -Dlava.library.path=lib/native/your-os -jar asteroidsfw.jar [parameters]
+
+Substitute your-os with your operating system (look under lib/native to see the supported ones). If using java2d graphics (see below), you don't need to set the native path at all.
+
+Parameters are:
+file=filename   - reads configuration data from file filename
+graphics=opengl|java2d  - sets the graphics mode to OpenGL or java2d. OpenGL is the default mode. If using java2d, you don't need the native opengl libraries.
+
+Look inside the file named "input" to see information about the accepted configuration parameters. NB: you need to see the parameters, because that is how you load your ship into the framework.
+
+For example, I start the framework on my laptop with the following command:
+
+java -Djava.library.path=lib/native/linux -jar asteroidsfw.jar file=input
+
+...and I start with a yellow human ship playing against John's purple one.
+
+
+java -Djava.library.path=D:\GameProjects\asteroids\lib\native\windows -jar asteroidsfw.jar file=D:\GameProjects\asteroids\input
