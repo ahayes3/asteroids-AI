@@ -1,6 +1,6 @@
-ship=human,0x000000
+ship=ships.cid.DrunkenMonkeyAI,0x00ff00
 ship=ships.y2020.andy.MyShip,0xff00ff
-fps=30
+fps=60
 period=120
 quit=130
 
