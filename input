@@ -1,4 +1,4 @@
-ship=ships.cid.DrunkenMonkeyAI,0x00ff00
+ship=ships.james.JD_Ship_1,0x00ff00
 ship=ships.y2020.andy.MyShip,0xff00ff
 fps=60
 period=120

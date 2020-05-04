@@ -39,4 +39,9 @@ public class AsteroidSim {
 	public int radius() {
 		return radius;
 	}
+	
+	@Override
+	public String toString() {
+		return "Pos: "+pos + " V: "+ v;
+	}
 }
